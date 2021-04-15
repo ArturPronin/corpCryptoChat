@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testcryptochat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:5:5-67
+11-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- XXX ACCESS_NETWORK_STATE is required by WebRTC. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:9:5-79
+14-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:5-68
+15-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:5-65
+16-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+17-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:5-75
+17-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:22-72
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:5-80
+18-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:22-77
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:15:5-71
+19-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:15:22-68
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:5-78
+20-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:22-75
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:5-68
+21-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:22-65
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:18:5-76
+22-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:18:22-73
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:5-77
+23-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:22-74
+24
+25    <uses-feature
+25-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:21:5-23:35
+26        android:glEsVersion="0x00020000"
+26-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:22:9-41
+27        android:required="true" />
+27-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:23:9-32
+28    <uses-feature
+28-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:24:5-26:36
+29        android:name="android.hardware.camera"
+29-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:25:9-47
+30        android:required="false" />
+30-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:26:9-33
+31    <uses-feature
+31-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:27:5-29:36
+32        android:name="android.hardware.camera.autofocus"
+32-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:28:9-57
+33        android:required="false" />
+33-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:29:9-33
+34
+35    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+35-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\973c74362f237eb977f62b3722f74bf1\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:11:5-73
+35-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\973c74362f237eb977f62b3722f74bf1\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:11:22-70
+36    <uses-permission android:name="android.permission.READ_CALENDAR" />
+36-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\973c74362f237eb977f62b3722f74bf1\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:12:5-72
+36-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\973c74362f237eb977f62b3722f74bf1\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:12:22-69
+37
+38    <application
+38-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:7:5-24:19
+39        android:allowBackup="true"
+39-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:8:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\b4b501b9ffccbf729a739e59de5fa42b\core-1.3.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:9:9-43
+44        android:label="@string/app_name"
+44-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:10:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:11:9-54
+46        android:supportsRtl="true"
+46-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:12:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:13:9-40
+49        <activity android:name="com.example.testcryptochat.HomeScreen" />
+49-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:14:9-48
+49-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:14:19-45
+50        <activity android:name="com.example.testcryptochat.video_meet" />
+50-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:15:9-48
+50-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:15:19-45
+51        <activity android:name="com.example.testcryptochat.BotActivity" />
+51-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:16:9-49
+51-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:16:19-46
+52        <activity android:name="com.example.testcryptochat.MainActivity" >
+52-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:17:9-23:20
+52-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:17:19-47
+53            <intent-filter>
+53-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:18:13-22:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:19:17-69
+54-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:19:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:21:17-77
+56-->A:\Users\user\Desktop\TestCryptoChat\app\src\main\AndroidManifest.xml:21:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:35:9-42:20
+60            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+60-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:36:13-64
+61            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+61-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:37:13-115
+62            android:launchMode="singleTask"
+62-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:38:13-44
+63            android:resizeableActivity="true"
+63-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:39:13-46
+64            android:supportsPictureInPicture="true"
+64-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:40:13-52
+65            android:windowSoftInputMode="adjustResize" >
+65-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:41:13-55
+66        </activity>
+67        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+67-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:9-86
+67-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:19-83
+68
+69        <service
+69-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:45:9-51:19
+70            android:name="org.jitsi.meet.sdk.ConnectionService"
+70-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:46:13-64
+71            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+71-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:47:13-84
+72            <intent-filter>
+72-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:48:13-50:29
+73                <action android:name="android.telecom.ConnectionService" />
+73-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:17-76
+73-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:25-73
+74            </intent-filter>
+75        </service>
+76        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+76-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:9-88
+76-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\1c77e889aea10000dbd29177680bc648\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:18-85
+77
+78        <provider
+78-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:12:9-20:20
+79            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+79-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:13:13-83
+80            android:authorities="com.example.testcryptochat.fileprovider"
+80-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:14:13-64
+81            android:exported="false"
+81-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:15:13-37
+82            android:grantUriPermissions="true" >
+82-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:16:13-47
+83            <meta-data
+83-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:17:13-19:63
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:18:17-67
+85                android:resource="@xml/file_provider_paths" />
+85-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] A:\Users\user\.gradle\caches\transforms-2\files-2.1\c5a676146569f705c70225d59f2acfd9\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:19:17-60
+86        </provider>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+89            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+89-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+90            android:excludeFromRecents="true"
+90-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+93        <!--
+94            Service handling Google Sign-In user revocation. For apps that do not integrate with
+95            Google Sign-In, this service will never be started.
+96        -->
+97        <service
+97-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+98            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+98-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+99            android:exported="true"
+99-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+100            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+100-->[com.google.android.gms:play-services-auth:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\7e6622e6f798ecaf93150efc7bd10996\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.0.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+110
+111        <provider
+111-->[androidx.lifecycle:lifecycle-process:2.2.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+112            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.2.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+113            android:authorities="com.example.testcryptochat.lifecycle-process"
+113-->[androidx.lifecycle:lifecycle-process:2.2.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+114            android:exported="false"
+114-->[androidx.lifecycle:lifecycle-process:2.2.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+115            android:multiprocess="true" />
+115-->[androidx.lifecycle:lifecycle-process:2.2.0] A:\Users\user\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+116    </application>
+117
+118</manifest>

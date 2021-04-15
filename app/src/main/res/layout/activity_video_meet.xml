@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragment.Videofragment">
+
+    <!--EditText for taking input room name from user-->
+    <EditText
+        android:id="@+id/conferenceName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:hint="Введите название комнаты"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <!--Button for creating a room for video
+        calling by it's clicking event-->
+    <!--When clicking event occur on button
+        then onButtonClick method will call -->
+    <Button
+        android:id="@+id/video_meet_button"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_button_02"
+        android:onClick="onButtonClick"
+        android:text="Подключить к видеозвонку"
+        android:textColor="#FFFFFF"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

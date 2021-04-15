@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context=".Fragment.Botfragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatBotWindow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/openSite"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_01"
+                android:onClick="onButtonClick"
+                android:text="Открыть сайт"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/library"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_02"
+                android:onClick="onButtonClick"
+                android:text="Библиотека"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/mySchedule"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_01"
+                android:onClick="onButtonClick"
+                android:text="Расписание"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/buttonMoneyInfo"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_02"
+                android:onClick="onButtonClick"
+                android:text="Информация о ЗП"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/contacts"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_01"
+                android:onClick="onButtonClick"
+                android:text="Контакты"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/myTasks"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_02"
+                android:onClick="onButtonClick"
+                android:text="Мои задачи"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick" />
+
+        </TableRow>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
